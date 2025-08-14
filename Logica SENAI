@@ -1,0 +1,59 @@
+NOME E IDADE
+	real np,n,totaldeprovas = 0
+	inteiro provas=0
+	
+		escreva("informe a quantidade de provas:")
+		leia(np)
+		escreva("Informe a nota:")
+		leia(n)
+		enquanto(totaldeprovas<= np){
+			n=escreva("informe a proxima nota")
+		provas += n
+		totaldeprovas ++
+		escreva("Sua Média é: " + provas / totaldeprovas)
+	}
+\\--\\
+SUBTRAÇÂO
+real a,b,dimi
+		escreva ("digite o primeiro numero:  ")
+			leia(a)
+		escreva ("digite o primeiro numero:  ")
+			leia(b)
+		dimi = a - b
+			escreva("O resultado da multiplicação é: " + dimi + "!")
+	}
+\\--\\
+DIVISÂO
+inteiro a,b,divi
+		escreva ("digite o primeiro numero:  ")
+			leia(a)
+		escreva ("digite o primeiro numero:  ")
+			leia(b)
+		divi = a / b
+			escreva("O resultado da multiplicação é: " + divi + "!")
+	}
+
+\\--\\
+Multiplicação
+inteiro a,b,c,multi
+		escreva ("digite o primeiro numero:  ")
+			leia(a)
+		escreva ("digite o primeiro numero:  ")
+			leia(b)
+		escreva ("digite o primeiro numero:  ")
+			leia(c)
+		multi = a * b * c
+			escreva("O resultado da multiplicação é: " + multi + "!")
+	}
+\\--\\
+SOMA
+inteiro a,b,c,soma
+
+			escreva("digite o primeiro numero:  ")
+			leia(a)
+			escreva("digite o segundo numero:  ")
+			leia(b)
+			escreva("digite o terceiro numero:  ")
+			leia(c)
+				soma = a + b + c
+				escreva("A soma dos numeros é: " + soma + "!")
